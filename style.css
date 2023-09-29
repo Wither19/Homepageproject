@@ -1,0 +1,124 @@
+.bigolheader {
+        background-color: rgba(24, 250, 255, 0.35);
+        color: black;
+        font-size: 55px;
+        font-family: 'TF2 Build', sans-serif;
+        text-align: center;
+        border: outset 3px;
+        border-radius: 20px;
+        margin: 10px auto 10px auto;
+        width: 40%;
+        padding:3px;
+        transition: background-color 200ms, color 400ms, border 100ms, filter 200ms;
+    }
+
+    .bigolheader:hover {
+        background-color: rgba(56, 4, 116, 0.9);
+        color: ghostwhite;
+        border: inset 9px;
+    }
+    .bigolheader:active {
+      background-color:rgba(0, 200, 0, 0.9);
+    }
+    .boxlg {
+        background-color: rgba(24, 250, 255, 0.35);
+        color: black;
+        font-size: 50px;
+        font-family: 'Play', sans-serif;
+        text-align: center;
+        border: outset 3px;
+        border-radius: 20px;
+        margin: 10px auto 32px auto;
+        transition: background-color 200ms, color 400ms, border 100ms, filter 200ms;
+        width: 30%;
+        padding:3px;
+    }
+
+    .boxlg:hover {
+        background-color: rgba(56, 4, 116, 0.9);
+        color: ghostwhite;
+        border: inset 9px;
+    }
+        .boxlg:active {
+      background-color:rgba(0, 200, 0, 0.9);
+    }
+    .boxsm {
+        background-color: rgba(24, 250, 255, 0.35);
+        color: black;
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        border: outset 3px;
+        border-radius: 20px;
+        margin: 10px auto 24px auto;
+        transition: background-color 200ms, color 400ms, border 100ms, filter 200ms;
+        width: 48%;
+        padding:3px;
+    }
+    .boxsm:hover {
+        background-color: rgba(56, 4, 116, 0.9);
+        color: ghostwhite;
+        border: inset 9px;
+        
+    }
+    .boxsm:active {
+      background-color:rgba(0, 200, 0, 0.9);
+    }
+    body {
+        background-image: url(https://cdnb.artstation.com/p/assets/images/images/044/156/575/large/michel-brito-highresscreenshot00000.jpg?1639243639);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: 200%;
+    }
+
+    #pfp {
+        width: 100px;
+    }
+    .htmlglow:hover {
+        background-color: rgba(255, 83, 0, 0.9);
+        color: ghostwhite;
+        filter:drop-shadow(12px 12px 2px black);
+    }
+    .htmlglow:active {
+        background-color: rgba(188, 63, 0, 0.9);
+        filter:drop-shadow(20px 20px 2px #ff5300);
+    }
+
+    .cssglow:hover {
+        background-color: rgba(0, 139, 255, 0.9);
+        color: ghostwhite;
+        filter:drop-shadow(12px 12px 2px black);
+    }
+    .cssglow:active {
+        background-color: rgba(0, 97, 176, 0.9);
+        filter:drop-shadow(20px 20px 2px #008bff);
+    }
+    #tf2text {
+        font-family: 'TF2 Build', sans-serif;
+    }
+    a {
+      text-decoration:none;
+      color:darkblue;
+      font-weight:bolder;
+      border-bottom:dotted 4px darkblue;
+      transition: border 100ms, color 200ms;
+    }
+    a:hover {
+      color:orangered;
+      border-bottom:dotted 4px orangered;
+    }
+    a:visited {
+      text-decoration:none;
+}
+div.has-shadow:hover {
+    filter:drop-shadow(12px 12px 2px black);
+}
+div.has-shadow:active {
+    filter:drop-shadow(20px 20px 2px gray);
+}
+#heavy {
+  width:300px;
+}
+#engi {
+  width:300px;
+}
