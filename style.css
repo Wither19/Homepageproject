@@ -125,6 +125,8 @@ div.has-shadow:active {
 .stickybutton {
         font-family: 'Poppins', sans-serif;
         transition:all 200ms;
+        position:sticky;
+        top:0;
 }
 .stickybutton:hover {
         font-size:28px;
