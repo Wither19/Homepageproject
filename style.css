@@ -15,7 +15,7 @@
     .bigolheader:hover {
         background-color: rgba(56, 4, 116, 0.9);
         color: ghostwhite;
-        border: inset 9px;
+        transform: translate(0px, -8px);
     }
     .bigolheader:active {
       background-color:rgba(0, 200, 0, 0.9);
@@ -26,10 +26,10 @@
         font-size: 50px;
         font-family: 'Play', sans-serif;
         text-align: center;
-        border: outset 3px;
+        border: outset 6px;
         border-radius: 20px;
         margin: 10px auto 32px auto;
-        transition: background-color 200ms, color 400ms, border 100ms, filter 200ms;
+        transition: background-color 200ms, color 400ms, border 100ms, filter 200ms, transform 200ms;
         width: 30%;
         padding:3px;
     }
@@ -37,7 +37,7 @@
     .boxlg:hover {
         background-color: rgba(56, 4, 116, 0.9);
         color: ghostwhite;
-        border: inset 9px;
+        transform: translate(0px, -8px);
     }
         .boxlg:active {
       background-color:rgba(0, 200, 0, 0.9);
@@ -48,18 +48,17 @@
         font-size: 24px;
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        border: outset 3px;
+        border: outset 6px;
         border-radius: 20px;
         margin: 10px auto 24px auto;
-        transition: background-color 200ms, color 400ms, border 100ms, filter 200ms;
+        transition: background-color 200ms, color 400ms, border 100ms, filter 200ms, transform 200ms;
         width: 48%;
         padding:3px;
     }
     .boxsm:hover {
         background-color: rgba(56, 4, 116, 0.9);
         color: ghostwhite;
-        border: inset 9px;
-        
+        transform: translate(0px, -8px);
     }
     .boxsm:active {
       background-color:rgba(0, 200, 0, 0.9);
