@@ -15,12 +15,12 @@
     .bigolheader:hover {
         background-color: rgba(56, 4, 116, 0.9);
         color: ghostwhite;
-        transform: translate(0px, -8px);
+        transform: translate(0px, -4px);
     }
     .bigolheader:active {
       background-color:rgba(0, 200, 0, 0.9);
-      border:outset 6px;
-      transform:translate(0px, -8px);
+      border:outset 8px;
+      transform:translate(0px, -16px);
     }
     .boxlg {
         background-color: rgba(24, 250, 255, 0.35);
@@ -43,8 +43,8 @@
     }
         .boxlg:active {
       background-color:rgba(0, 200, 0, 0.9);
-      border:outset 6px;           
-      transform:translate(0px, -8px);
+      border:outset 8px;
+      transform:translate(0px, -16px);
     }
     .boxsm {
         background-color: rgba(24, 250, 255, 0.35);
@@ -62,12 +62,12 @@
     .boxsm:hover {
         background-color: rgba(56, 4, 116, 0.9);
         color: ghostwhite;
-        transform: translate(0px, -8px);
+        transform: translate(0px, -4px);
     }
     .boxsm:active {
       background-color:rgba(0, 200, 0, 0.9);
-      border:outset 6px;
-      transform:translate(0px, -8px);
+      border:outset 8px;
+      transform:translate(0px, -16px);
     }
     body {
         background-image: url(https://cdnb.artstation.com/p/assets/images/images/044/156/575/large/michel-brito-highresscreenshot00000.jpg?1639243639);
