@@ -19,6 +19,8 @@
     }
     .bigolheader:active {
       background-color:rgba(0, 200, 0, 0.9);
+      border:outset 6px;
+      transform:translate(0px, -8px);
     }
     .boxlg {
         background-color: rgba(24, 250, 255, 0.35);
@@ -41,6 +43,8 @@
     }
         .boxlg:active {
       background-color:rgba(0, 200, 0, 0.9);
+      border:outset 6px;           
+      transform:translate(0px, -8px);
     }
     .boxsm {
         background-color: rgba(24, 250, 255, 0.35);
@@ -48,7 +52,7 @@
         font-size: 24px;
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        border: outset 6px;
+        border: outset 4px;
         border-radius: 20px;
         margin: 10px auto 24px auto;
         transition: background-color 200ms, color 400ms, border 100ms, filter 200ms, transform 200ms;
@@ -62,6 +66,8 @@
     }
     .boxsm:active {
       background-color:rgba(0, 200, 0, 0.9);
+      border:outset 6px;
+      transform:translate(0px, -8px);
     }
     body {
         background-image: url(https://cdnb.artstation.com/p/assets/images/images/044/156/575/large/michel-brito-highresscreenshot00000.jpg?1639243639);
