@@ -138,6 +138,6 @@ div.has-shadow:active {
 }
 marquee {
         font-size:4px;
-        position:absolute;
+        position:sticky;
         bottom:0;
 }
