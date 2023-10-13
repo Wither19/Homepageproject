@@ -122,10 +122,10 @@ div.has-shadow:active {
     filter:drop-shadow(20px 20px 2px gray);
 }
 #heavy {
-  width:300px;
+  width:80px;
 }
 #engi {
-  width:300px;
+  width:80px;
 }
 .stickybutton {
         font-family: 'Poppins', sans-serif;
@@ -135,4 +135,9 @@ div.has-shadow:active {
 }
 .stickybutton:hover {
         font-size:20px;
+}
+marquee {
+        font-size:4px;
+        position:absolute;
+        bottom:0;
 }
