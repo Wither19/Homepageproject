@@ -141,3 +141,6 @@ marquee {
         position:sticky;
         bottom:0;
 }
+.bigolheader, .boxlg, .boxsm {
+    cursor: pointer;
+}
